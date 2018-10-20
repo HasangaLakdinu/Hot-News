@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+
+    android:id="@+id/layout"
+    tools:context=".SelectNewsActivity">
+    <include layout="@layout/app_bar_layout" android:id="@+id/main_page_toolbar"/>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:src="@drawable/logo"
+            android:id="@+id/imageh"
+            android:layout_gravity="center"
+           />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+
+
+
+            >
+
+        </Spinner>
+
+
+
+
+
+</LinearLayout>

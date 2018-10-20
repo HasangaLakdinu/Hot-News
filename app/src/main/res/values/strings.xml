@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HotNews</string>
+
+    <string-array name="newssource">
+        <item>Select Your News Source</item>
+
+        <item>Espn Cricinfo</item>
+        <item>CNN News</item>
+        <item>Verge News</item>
+        <item>National Geographic News</item>
+        <item>Al-Jazeera</item>
+        <item>ESPN News</item>
+        <item>Google News</item>
+        <item>BBC News</item>
+        <item>DailyMail News</item>
+        <item>Medical News Today</item>
+
+
+    </string-array>
+</resources>
